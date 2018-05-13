@@ -31,7 +31,8 @@ R"===(
 
 "cpu_threads_conf" :
 [
-CPUCONFIG
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
 ],
 
 )==="
