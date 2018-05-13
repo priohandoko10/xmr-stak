@@ -33,6 +33,7 @@ R"===(
 [
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
     { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
+    { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 2 },
 ],
 
 )==="
